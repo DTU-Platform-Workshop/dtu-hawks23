@@ -20,7 +20,7 @@ app = FastAPI(title="my-app", lifespan=lifespan)
 @app.get("/livez")
 @app.get("/")
 def hello():
-    return f"Hello World!"
+    return f"Hello World! What's up"
 
 
 def terminate(signal, frame):
